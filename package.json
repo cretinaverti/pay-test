@@ -12,6 +12,9 @@
     "develop": "concurrently -n ts 'npm:build -- --watch'",
     "test": "TZ=UTC jest"
   },
+  "dependencies": {
+    "date-fns": "^2.23.0"
+  },
   "devDependencies": {
     "@babel/cli": "^7.14.8",
     "@babel/core": "^7.14.8",
