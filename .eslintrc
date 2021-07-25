@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "react-app",
+    "react-app/jest",
+    "plugin:prettier/recommended" // Disable some ESLint rules through `eslint-config-prettier` AND set Prettier as a plugin of ESLint.
+  ]
+}
